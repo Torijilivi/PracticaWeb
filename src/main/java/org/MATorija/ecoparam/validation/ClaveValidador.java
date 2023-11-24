@@ -6,9 +6,7 @@ import org.MATorija.ecoparam.model.Formulario;
 
 public class ClaveValidador implements ConstraintValidator<CoincidenciaClaves, Formulario> {
 
-    public void initialize(CoincidenciaClaves p){
-    }
-
+    @Override
     public boolean isValid(Formulario formulario, ConstraintValidatorContext c){
         String clave = formulario.getClave();
         String confirmarClave = formulario.getConfirmarClave();

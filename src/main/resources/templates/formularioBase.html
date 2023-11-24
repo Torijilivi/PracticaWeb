@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="saludos/recibeParametros" method="post">43
+    <input type="hidden" name="1" value="1">
+
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre" value="lola">
+    <br></br>
+
+    <label for="clave">Clave: </label>
+    <input type="password" name="clave" id="clave">
+    <br></br>
+
+    <label for="confirmarClave">Confirmar clave: </label>
+    <input type="password" name="confirmarClave" id="confirmarClave">
+    <br>
+
+    <input type="button" value="Mostrar claves">
+    <br></br>
+
+    <label for="edad">Edad: </label>
+    <input type="text" name="edad" id="edad">
+    <br></br>
+
+    <label for="prefijoTelefonicoPais">Prefijo: </label>
+    <select name="prefijoTelefonicoPais" id="prefijoTelefonicoPais">
+        <option value="49">49</option>
+        <option value="33">33</option>
+        <option value="39">39</option>
+        <option value="34">34</option>
+    </select>
+    <br></br>
+
+    <label>Género: </label>
+    <label for="hombre">Hombre</label>
+    <input type="radio" name="generoSeleccionado" value="H" id="hombre">
+    <label for="mujer">Mujer</label>
+    <input type="radio" name="generoSeleccionado" value="M" id="mujer">
+    <label for="otro">Otro</label>
+    <input type="radio" name="generoSeleccionado" value="O" id="otro">
+    <br></br>
+
+    <label for="fechaNacimiento">Fecha Nacimiento: </label>
+    <input type="text" name="fechaNacimiento" id="fechaNacimiento">
+    <br></br>
+
+    <label for="telefonoMovil">Teléfono Móvil: </label>
+    <input type="text" name="telefonoMovil" id="telefonoMovil">
+    <br></br>
+
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email">
+    <br></br>
+
+    <label for="url">URL: </label>
+    <input type="text" name="url" id="url">
+    <br></br>
+
+    <label for="paisSeleccionado">Pais: </label>
+    <select name="paisSeleccionado" id="paisSeleccionado">
+        <option value="E">España</option>
+        <option value="F">Francia</option>
+        <option value="A">Alemania</option>
+        <option value="I">Italia</option>
+    </select>
+    <br></br>
+
+    <label for="archivosSeleccionados">Archivos: </label>
+    <input type="file" name="archivosSeleccionados" id="archivosSeleccionados" multiple="multiple">
+    <br></br>
+
+    <label for="musicasSeleccionadas">Musicas:</label>
+    <select name="musicasSeleccionadas" id="musicasSeleccionadas" multiple="multiple">
+        <option value="P">Pop</option>
+        <option value="R">Rock</option>
+        <option value="RP">Rap</option>
+        <option value="J">Jazz</option>
+        <option value="F">Flamenco</option>
+    </select>
+    <br>
+
+    <input type="button" value="Deseleccionar SELECT múltiple">
+    <input type="button" value="Seleccionar SELECT múltiple">
+    <br></br>
+
+    <label>Aficiones: </label>
+    <label for="futbol">futbol </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="futbol" value="F">
+    <label for="lectura">Lectura </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="lectura" value="L">
+    <label for="series">Series: </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="series" value="S">
+    <label for="danza">Danza: </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="danza" value="D">
+    <label for="padel">Padel: </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="padel" value="P">
+    <label for="violin">Violin: </label>
+    <input type="checkbox" name="aficionesSeleccionadas" id="violin" value="V">
+    <br>
+
+    <input type="button" value="Deseleccionar checkboxes">
+    <input type="button" value="Seleccionar checkboxes">
+    <br></br>
+
+    <label for="comentarios">Comentarios: </label>
+    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+    <br></br>
+
+    <label for="aceptarLicencia">Aceptar licencia: </label>
+    <input type="checkbox" name="aceptarLicencia" id="aceptarLicencia">
+    <br></br>
+
+    <input type="reset" name="Restablecer" value="Restablecer">
+    <input type="submit"  name="Enviar al servidor" value="Enviar al servidor">
+
+    <input type="image" src="/static/img/flechaDerecha.png" alt="flechaDerecha">
+    <br></br>
+
+    <label for="idioma">Cambiar el idioma: </label>
+    <select name="idioma" id="idioma">
+        <option value="ES">es</option>
+        <option value="FR">fr</option>
+        <option value="IT">it</option>
+        <option value="DE">de</option>
+    </select>
+
+</form>
+</body>
+</html>
